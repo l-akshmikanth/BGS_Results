@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.certificate {
+    border: 2px solid black;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+.guru-dev {
+    font-weight: bold;
+    font-size: 18px;
+    color: #b38f00;
+    margin-bottom: 10px;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header img {
+    width: 80px;
+    height: 100px;
+}
+
+.title, .subtitle {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+.certificate-title {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #b38f00;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table, .table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#student-name, #student-id {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.details {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.details p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.final-results {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #b38f00;
+    border-radius: 5px;
+    background-color: #fdf5e6;
+}
+
+.final-results strong {
+    font-size: 22px;
+    color: #b38f00;
+}
+
+.print-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #45a049;
+}
+
+/* Print-specific styles */
+@media print {
+    .search-section,
+    .print-button {
+        display: none;
+    }
+}

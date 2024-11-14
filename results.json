@@ -1,0 +1,43 @@
+{
+    "Sheet1":[
+     {
+      "slNo": 1,
+      "name": "ABHISHEK C M",
+      "kannada_theory": 85,
+      "english_theory": 60,
+      "physics_theory": 35,
+      "physics_practical": 10,
+      "chemistry_theory": 42,
+      "chemistry_practical": 15,
+      "mathematics_theory": 78,
+      "biology_theory": 45,
+      "biology_practical": 25
+     },
+     {
+      "slNo": 2,
+      "name": "AKSHARA M",
+      "kannada_theory": 90,
+      "english_theory": 82,
+      "physics_theory": 58,
+      "physics_practical": 29,
+      "chemistry_theory": 65,
+      "chemistry_practical": 28,
+      "mathematics_theory": 88,
+      "biology_theory": 74,
+      "biology_practical": 30
+     },
+     {
+      "slNo": 3,
+      "name": "AMULYA G K",
+      "kannada_theory": 55,
+      "english_theory": 49,
+      "physics_theory": 28,
+      "physics_practical": 8,
+      "chemistry_theory": 33,
+      "chemistry_practical": 10,
+      "mathematics_theory": 35,
+      "biology_theory": 20,
+      "biology_practical": 15
+     }
+    ]
+    }

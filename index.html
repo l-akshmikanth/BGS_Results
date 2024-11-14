@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Results</title>
+
+</head>
+<body>
+    <div class="certificate">
+        <div class="header">
+            <img src="1.png" alt="Left Image">
+            <div>
+                <div class="guru-dev">|| JAI SRI GURUDEV ||</div>
+                <div class="title">BGS INDEPENDENT PU COLLEGE</div>
+                <div class="subtitle">Sri Adichunchanagiri Shikshana Trust (R.)</div>
+                <div class="subtitle">TB Extension, Nagamangala, Mandya District. College Code - PP0102</div>
+            </div>
+            <img src="2.png" alt="Right Image">
+        </div>
+
+        <div class="search-section">
+            <input type="number" id="studentID" placeholder="Enter Student ID">
+            <button onclick="searchResults()">Search</button>
+        </div>
+
+        <div id="result-section" style="display: none;">
+            <h4 id="student-name"></h4>
+            <h4 id="student-id"></h4>
+            
+            <table class="table">
+                <tr>
+                    <th rowspan="2">SUBJECT</th>
+                    <th colspan="2">Theory</th>
+                    <th colspan="2">Practical/Internal Assessment</th>
+                    <th colspan="2">Total</th>
+                </tr>
+                <tr>
+                    <th>Max. Marks</th>
+                    <th>Sec. Marks</th>
+                    <th>Max. Marks</th>
+                    <th>Sec. Marks</th>
+                    <th>Max. Marks</th>
+                    <th>Sec. Marks</th>
+                </tr>
+                <tr>
+                    <td>Kannada</td>
+                    <td>100</td>
+                    <td id="kannada-theory">0</td>
+                    <td>-</td>
+                    <td id="kannada-practical">0</td>
+                    <td>100</td>
+                    <td id="kannada-result">0</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>100</td>
+                    <td id="english-theory">0</td>
+                    <td>-</td>
+                    <td id="english-practical">0</td>
+                    <td>100</td>
+                    <td id="english-result">0</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>70</td>
+                    <td id="physics-theory">0</td>
+                    <td>30</td>
+                    <td id="physics-practical">0</td>
+                    <td>100</td>
+                    <td id="physics-result">0</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>70</td>
+                    <td id="chemistry-theory">0</td>
+                    <td>30</td>
+                    <td id="chemistry-practical">0</td>
+                    <td>100</td>
+                    <td id="chemistry-result">0</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>100</td>
+                    <td id="mathematics-theory">0</td>
+                    <td>-</td>
+                    <td id="mathematics-practical">0</td>
+                    <td>100</td>
+                    <td id="mathematics-result">0</td>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td>70</td>
+                    <td id="biology-theory">0</td>
+                    <td>30</td>
+                    <td id="biology-practical">0</td>
+                    <td>100</td>
+                    <td id="biology-result">0</td>
+                </tr>
+                <tr>
+                    <th>Total Marks</th>
+                    <th>450</th>
+                    <th id="theory-total">0</th>
+                    <th>150</th>
+                    <th id="practical-total">0</th>
+                    <th>600</th>
+                    <th id="grand-total">0</th>
+                </tr>
+            </table>
+            
+            <div class="details">
+                <p>Total Marks In Words: <b><span id="marks-in-words">Zero</span></b></p>
+                <p>Class Obtained: <b><span id="class-obtained">FAIL</span></b></p>
+                <p>Percentage: <b><span id="percentage">0.00</span>%</b></p>
+            </div>
+            
+            <div class="final-results">
+                <strong>Final Result: <span id="final-result">FAIL (Total: 0)</span></strong>
+            </div>
+            
+            <div class="print-button-container" style="text-align: center;">
+                <button class="print-button" onclick="printMarksheet()">Print Marksheet</button>
+            </div>
+    </div>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
